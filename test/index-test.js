@@ -22,6 +22,6 @@ describe('createStore()', () => {
       store.dispatch({type: 'ADD_CANDY', candy: "Jelly Beans"});
       let todos = store.getState();
       expect(todos).to.eql(["Jelly Beans"]);
-    })
+    }) 
   })
 })
